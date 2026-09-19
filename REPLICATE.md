@@ -17,3 +17,12 @@ Alejo asked to refresh project instructions and remove redundant Claude instruct
 - Checked instruction references and shared-context freshness; native Claude loading requires 2.1.277+ with the built-in feature enabled.
 
 Agent session 01a0b915-3eb2-78b2-9add-6ba48ad9a3b1 · Commits 374f18d772252126b84a6e986f604f6a8cae5fe7
+
+## Explicit startup instructions
+
+Alejo wanted shared instructions selected deliberately at startup, without copied text or automatic parent inheritance.
+
+- Removed agent-context YAML and generated shared text; retained project-specific instructions locally.
+- Shared groups: none. Selection now lives in the machine's context registry; startup does not rewrite this file.
+
+Agent session 01a0b915-3eb2-78b2-9add-6ba48ad9a3b1 · Commits c64c8bc
