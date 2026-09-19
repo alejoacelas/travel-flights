@@ -72,3 +72,12 @@ star class.
 
 Expanded the existing loyalty-credit job after recovering credit from historical flight
 receipts in email; kept it in `ideas.md` rather than adding another root file.
+
+## Retire construction folders
+
+Alejo wanted all `reproduce` folders under `~/best` transitioned to `REPLICATE.md`.
+
+- Consolidated the existing records and updated references for `reproduce`. Preserved scripts, data and maintained procedures in their own folders.
+- Original tracked files remain in Git at `469c4792ca08e6361285fef5cc152ad6e5332b8d`; a full local backup, including ignored files, is at `/Users/alejo/.local/state/reproduce-migration/2026-09-19-_qyg4u7a/before/me/admin/2026-09-flights`.
+
+Agent session 01a0bb8d-6d31-76d3-ac4e-aca4c5dfce64 · Commits 436a2ec03beb41ef65ddb3af0427bbc8955e7528
